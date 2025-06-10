@@ -1,14 +1,15 @@
 {
   "manifest_version": 3,
   "name": "判例ワンクリック検索",
-  "version": "1.1",
-  "description": "選択した判例情報を右クリックからWestlawで検索します。",
+  "version": "2.0",
+  "description": "選択した判例情報を右クリックからWestlaw Japanまたは判例秘書で検索します。",
   "permissions": [
     "contextMenus",
     "scripting"
   ],
   "host_permissions": [
-    "https://go.westlawjapan.com/*"
+    "https://go.westlawjapan.com/*",
+    "https://www.legal-info.com/*"
   ],
   "background": {
     "service_worker": "background.js"
